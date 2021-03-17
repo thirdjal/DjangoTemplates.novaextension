@@ -76,10 +76,10 @@
             
             <scope name="django.comment.block">
                 <starts-with>
-                    <expression>\{\%\s*comment</expression>
+                    <expression>{%\h*comment\h*%}</expression>
                 </starts-with>
                 <ends-with>
-                    <expression>endcomment\s*\%\}</expression>
+                    <expression>{%\h*endcomment\h*%}</expression>
                 </ends-with>
             </scope>
         </collection>
