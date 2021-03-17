@@ -67,10 +67,10 @@
         <collection name="comments">
             <scope name="django.comment.single">
                 <starts-with>
-                    <expression>\{\#</expression>
+                    <expression>{#</expression>
                 </starts-with>
                 <ends-with>
-                    <expression>\#\}</expression>
+                    <expression>#}</expression>
                 </ends-with>
             </scope>
             
